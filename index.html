@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>JS Face Tracker</title>
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="bot.css" />
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.8.0/p5.min.js"
+        integrity="sha512-pgK6Wo8doipc/IPQ0ilH3b47ww01345nR9ud1/6Qp0n+lQlEW9zuw6JhysRcUpBY4yKuVZjn1MAkDxbnncuGsQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+
+      <!--   <script src="https://unpkg.com/delaunator@5.0.0/delaunator.min.js"></script> -->
+      <script src="delaunator.min.js"></script>
+
+      <script src="delaunay-utilities.js"></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.7.14/vue.min.js"
+        integrity="sha512-BAMfk70VjqBkBIyo9UTRLl3TBJ3M0c6uyy2VMUrq370bWs7kchLNN9j1WiJQus9JAJVqcriIUX859JOm12LWtw=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://unpkg.com/ml5@0.20.0-alpha.3/dist/ml5.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.js"
+        integrity="sha512-O6tq+fkhkfCEulJBqTOZ7dsNIA98zy+GTrDmoh5aJL4Wpi8BIcg+cAW5Cfj4cdqtDmLp/5j398Z6BPpjaYjLmQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+
+      <!--   Pre-recorded hand and face data   -->
+
+      <script src="data/testfacedata.js"></script>
+      <script src="data/testhanddata.js"></script>
+
+      <!--   Main code here   -->
+      <script src="Vector2D.js"></script>
+      <script src="Tracker.js"></script>
+      <script src="colorpicker.js"></script>
+      <script src="app.js"></script>
+
+      <!--   Your code here   -->
+      <script src="mask-tarot.js"></script>
+      <script src="mask-sadcat.js"></script>
+    </head>
+    <body>
+      <div id="app"></div>
+    </body>
+  </html>
+</html>
